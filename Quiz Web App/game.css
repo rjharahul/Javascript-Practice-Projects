@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    margin: 0%;
+    color: rgb(216, 215, 215);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(201, 200, 200);
+}
+
+#game {
+    background-color: #857e7e;
+    padding: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 10px;
+    box-shadow: 5px 10px rgb(99, 97, 97);
+    border: 0.1px solid black;
+}
+
+.quschoice {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.quschoice:hover, #game:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px rgb(0, 19, 0);
+    transform: translateY(-1px);
+    transition: transform 150ms;
+}
+
+.choice-pre , .choice-text {
+    margin: 5px;
+    padding: 1px;
+}
+
+.choice-text {
+    width: 100%;
+}
+
+.navgame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.qusbar {
+    border: 1px solid green;
+    height: 10px;
+}
+
+#qusbar1 {
+    background-color: green;
+    width: 0%;
+    height: 10px;
+}

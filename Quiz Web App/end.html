@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="quiz.css">
+    </head>
+    <body>
+        <div class="playagain">
+            <div class="playagain1">
+                <p class="yourscore"><b>Your Score</b></p>
+                <a class="btn" href="game.html">Play Again</a>
+                <a class="btn" href="quiz.html">Home</a> 
+            </div>
+        </div>
+        <script>
+            document.getElementsByClassName("yourscore")[0].innerHTML = `<b>Your Score ${localStorage.getItem("score")}</b>`
+        </script>
+    </body>
+</html>
